@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="work.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+      <link rel="icon" href="data:,">
+      <title>Cardio</title>
+   </head>
+   <body>
+      <div class="container">
+         <div id="container-countdown">
+            <p id="countdown">Cardio</p>
+         </div>
+         <div class="pause">
+            <i class="<i fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-pause" id="stop"></i>
+         </div>
+         <div class="home">
+            <a href="../index.html"><i class="fa-solid fa-house" id="home"></i></a>
+         </div>
+      </div>
+      <audio id="player" loop="loop">
+         <source src="https://cdn.glitch.me/c43f9b58-b7a1-475d-b208-5cc0d14046f1%2Faudio.mp3?v=1638181068843" type="audio/mp3">
+      </audio>
+      <video width="100%" autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" controls>
+         <source src="https://cdn.glitch.global/e485f3e5-1122-4955-8d6c-4f672b58c49c/cardio.mp4?v=1733811411701" type="video/mp4" >
+      </video>
+      <script src="work.js"></script>
+   </body>
+</html>

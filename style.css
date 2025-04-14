@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+body{
+    background-color: #673bd742;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.start {
+    text-align: center;
+    color: white;
+    margin: 50px;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2, h3 {
+    color: white;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background: #683bd7;
+    width: 225px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+}
+.btn:hover {
+    background: linear-gradient(to right, #ab2bea, #683bd7);
+}
+
+@media (max-width: 1000px) {
+    .start{
+      position: absolute;
+      top: 20%;
+    padding-top: 15px 5px;
+    border-radius: 10px;
+    background: #b2aebf8d;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    }
+	.choose {
+        flex-direction: column;
+        align-items: center;
+    }
+    #myVideo {     
+        min-height: auto;
+        min-width: auto;
+        z-index: -10;
+    }
+    .btn{
+        margin: 15px;
+    }
+    .title > img{
+        display: none;
+    }
+  .title{
+    margin:20px 15px;
+  }
+}
+
+
+@media (max-width: 800px) {
+    .start{
+    margin-top:50px;
+    padding-top: 15px 5px;
+    border-radius: 10px;
+    background: #b2aebf8d;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    }
+
+	h1{
+        font-size: 40px;
+    }
+
+}
+@media (max-width: 450px) {
+
+	h1{
+        font-size: 30px;
+    }
+   .title {
+        margin-bottom: 10px;
+    }
+}
