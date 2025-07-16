@@ -1,7 +1,7 @@
 <h1>⏱️💪  Workout timer application</h1>
 <p>Workout Timer is a simple and effective app designed to help you stay on track during workouts with customizable intervals and rest periods. Perfect for HIIT, circuits, and more!</p>
 <br><h2> 🚀 Live Demo </h2>
-<p>Check it out live here: <a href="https://workout-timer-play.glitch.me/">https://workout-timer-play.glitch.me/</a> </p>
+<p>Check it out live here: <a href="https://workout-timer-play.netlify.app/">https://workout-timer-play.netlify.app/</a> </p>
 <br><h2> 📌 Setup Instructions </h2>
 
 1. Clone the repository:
